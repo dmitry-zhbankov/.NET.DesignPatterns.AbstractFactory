@@ -2,6 +2,6 @@
 {
     class Susp1 : ISuspension
     {
-        public string Type { get; private set; } = "MacPherson";
+        public string Type { get; } = "MacPherson";
     }
 }

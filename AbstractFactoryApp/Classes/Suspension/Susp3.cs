@@ -2,6 +2,6 @@
 {
     class Susp3 : ISuspension
     {
-        public string Type { get; private set; } = "Sliding pillar";
+        public string Type { get; } = "Sliding pillar";
     }
 }

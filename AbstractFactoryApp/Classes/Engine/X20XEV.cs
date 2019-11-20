@@ -2,6 +2,6 @@
 {
     class X20XEV : IEngine
     {
-        public double Capacity { get; private set; } = 2.0;
+        public double Capacity { get; } = 2.0;
     }
 }

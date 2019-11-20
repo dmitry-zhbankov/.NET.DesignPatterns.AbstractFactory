@@ -2,6 +2,6 @@
 {
     class Susp2 : ISuspension
     {
-        public string Type { get; private set; } = "Swing axle";
+        public string Type { get;  } = "Swing axle";
     }
 }

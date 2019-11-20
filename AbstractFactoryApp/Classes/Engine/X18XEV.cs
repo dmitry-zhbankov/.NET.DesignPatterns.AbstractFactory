@@ -2,6 +2,6 @@
 {
     class X18XEV : IEngine
     {
-        public double Capacity { get; private set; } = 1.8;
+        public double Capacity { get; } = 1.8;
     }
 }

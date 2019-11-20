@@ -2,6 +2,6 @@
 {
     class R19 : IWheels
     {
-        public double Diameter { get; private set; } = 19;
+        public double Diameter { get; } = 19;
     }
 }
